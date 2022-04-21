@@ -1,0 +1,695 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+html {
+    overflow-x: hidden;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} 
+
+* Minimalist Scrollbar */
+* {
+ scrollbar-width: thin;
+ scrollbar-color: white black;
+ }
+ 
+ /* Works on Chrome, Edge, and Safari */
+ *::-webkit-scrollbar {
+ width: 8px;
+ }
+ 
+ *::-webkit-scrollbar-track {
+ background: #fffaf1;
+ }
+ 
+ *::-webkit-scrollbar-thumb {
+ background-color: #D4D4D4;
+ border-radius: 20px;
+ }
+
+nav{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 16px;
+  flex-wrap: wrap;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li{
+  margin: 0 18px;
+}
+nav ul li a{
+  color: #171717;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 20px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover{
+  color: #0b4a03;
+}
+nav .menu-btn i{
+  color: #171717;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+ 
+}
+input[type="checkbox"]{
+  display: none;
+}
+
+.header {
+    background-color: #0b4a03;
+    width: 102%;
+    height: 102px;
+    margin-left: -8px;
+    padding-top: 160px;
+}
+
+.uc-text {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: #ffff 1px 0 3px;
+    color: #fffaf1;
+    font-size: 100%;
+    font-weight: bold;
+    margin-left: 9%;
+    margin-top: -6.5%;
+}
+
+.id-text {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: #ffff 1px 0 3px;
+    color: #fffaf1;
+    font-size: 85%;
+    font-weight: thin;
+    margin-left: 9%;
+    margin-top: 2px;
+}
+
+.logo {
+    background-image: url(img/ucnhs-shs.png);
+    width: 7.5%;
+    height: 120px;
+    margin-top: -165px;
+    margin-left: 25px;
+}
+ 
+ .sdo-text {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: #ffff 1px 0 3px;
+    color: #fffaf1;
+    font-size: 100%;
+    font-weight: bold;
+    margin-left: 9%;
+    margin-top: 2px;
+ }
+
+ #myVideo {
+    margin-top: -.40%;
+    margin-left: 0px;
+    width: 110%;
+ }
+ 
+ /* Section 1 */
+.foreword {
+  text-align: center;
+  background-color: #F1F1F1;
+  margin-top: -10px;
+  margin-bottom: 25px;
+  padding: 300px;
+  padding-bottom: 600px;
+  margin-left: -800px;
+}
+
+ .content1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 5px;
+    margin-left: 50px;
+    font-size: 400%;
+    text-shadow: #171717 3.5px 0 3px;
+    margin-top: -800px;
+  }
+ 
+  .content-one{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 5px;
+    margin-left: 50px;
+    font-size: 400%;
+    text-shadow: #171717 4px 0 3px;
+    margin-top: -45px;
+ 
+  }
+ 
+  .content-two{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    bottom: 0;
+    color: #0b4a03;
+    width: 100%;
+    padding: 5px;
+    margin-left: 50px;
+    font-size: 200%;
+    text-shadow: #f1f1f1 3.5px 0 3px;
+    margin-top: -5px;
+  }
+ 
+  .content-three{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    bottom: 0;
+    color: #f8bf00;
+    width: 100%;
+    padding: 5px;
+    margin-left: 195px;
+    font-size: 200%;
+    text-shadow: #171717 3.5px 0 3px;
+    margin-top: -58px;
+  }
+
+.shs-vid {
+  margin-left: 48%;
+  margin-top: -44.2%;
+}
+
+.foreword h1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 5%;
+  color: #353535;
+  margin-left: -15%;
+  margin-top: 340px;
+}
+
+/* Left Content */
+.left-content {
+  float: left;
+  text-align: center;
+  margin-top: -600px;
+  width: 40%;
+  height: 310px;
+  margin-left: 5%;
+  font-family:'Roboto', sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+
+
+/* Section 2 */
+
+.content2 {
+  position: absolute;
+  width: 750px;
+  height: 620px;
+  left: 660px;
+  top: 1703px;
+
+  background: #F8BF00;
+}
+  /* SENIOR HIGH SCHOOL OFFERINGS */
+
+.content2-text h1 {
+
+  position: absolute;
+  left: 60%;
+  top: 280%;
+  bottom: 88.62%;
+  line-height: 36px;
+
+  color: #000000;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 7%;
+
+}
+
+#offered {
+  margin-top: -1.7%;
+  margin-left: -650px;
+  width: 54%;
+}
+
+.shs-text {
+  background: url(img/text-offered.svg);
+  width: 65%;
+  height: 80%;
+  margin-left: 100px;
+  margin-top: 90px;
+}
+
+.ucnhs {
+  text-align: center;
+  margin-top: 330px;
+  margin-bottom: 25px;
+  padding: 300px;
+  padding-bottom: 600px;
+  margin-left: -800px;
+}
+
+.ucnhs-text {
+  float: left;
+  text-align: center;
+  margin-top: -1300px;
+  width: 40%;
+  height: 310px;
+  margin-left: 5%;
+  font-family:'Roboto', sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+
+.ucnhs h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 5%;
+    color: #353535;
+    margin-left: 8%;
+    margin-top: -715px;
+}
+
+#as {
+  float: right;
+  margin-top: -100%;
+  margin-right: 2%;
+  width: 50%;
+  height: 800px;
+
+}
+
+.map {
+  margin-top: -560px;
+  float: center;
+}
+
+/* Footer Content */
+.footer {
+  float: left;
+  text-align: center;
+  background-color: #0b4a03;
+  width: 100%;
+  height: 350px;
+}
+
+.shs-logo {
+  background: url(img/footer/ucnhs-logo.png);
+  height: 32%;
+  width: 8%;
+  margin-left: 75px;
+  margin-top: -150px;
+}
+
+.footer-content h1 {
+  text-align: center;
+  margin-top: 80px;
+  font-family:'Roboto', sans-serif;
+  font-size: 12px;
+  color: #ffff;
+
+}
+
+.footer-content h2 {
+  font-family:'Roboto', sans-serif;
+  font-size: 15px;
+  color: #ffff;
+  margin-left: -660px;
+  margin-top: -185px;
+  font-weight: lighter;
+}
+
+.footer-content h3 {
+  font-family:'Roboto', sans-serif;
+  font-size: 20px;
+  color: #ffff;
+  margin-left: -575px;
+}
+
+.footer-content h4 {
+  font-family:'Roboto', sans-serif;
+  font-size: 20px;
+  color: #ffff;
+  margin-left: -600px;
+  margin-right: 128px;
+}
+
+.footer-content h5 {
+  font-family:'Roboto', sans-serif;
+  font-size: 15px;
+  color: #ffff;
+  margin-left: 1055px;
+  margin-top: -135px;
+  color: #ffff;
+  text-align: justify;
+  font-weight: lighter;
+}
+
+.footer-space {
+  margin-top: 12px;
+}
+
+.footer-space1 {
+  margin-top: 20px;
+}
+
+.footer-space2 {
+  margin-top: 15px;
+}
+
+
+
+.facebook-icon {
+  background: url(img/footer/fb.png);
+  height: 14.2%;
+  width: 3.2%;
+  margin-left: 1002px;
+  margin-top: 20px;
+
+}
+
+.trio-icons {
+  background: url(img/footer/trio-icons.png);
+  height: 35%;
+  width: 3%;
+  margin-left: 73%;
+  margin-top: 5%;
+
+}
+
+
+
+
+
+
+
+
+/* Media Queries wide view*/
+@media (max-width: 1000px){
+  nav{
+    padding: 0 40px 0 50px;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 400px) {
+
+  .content1 {
+    display: none;
+  }
+
+  .content-one {
+    display: none;
+  }
+
+  .content-two {
+    display: none; 
+  }
+
+  .content-three {
+    display: none;
+  }
+
+  nav .menu-btn i{
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  nav ul{
+    position: fixed;
+    top: 100px;
+    left: -100%;
+    background: white;
+    height: 100vh;
+    width: 20%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+
+  #click:checked ~ ul{
+    left: 0;
+  }
+  nav ul li{
+    width: 100%;
+    margin-top: 5px;
+  }
+  nav ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 10px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    background: none;
+    color: #0b4a03;
+    
+  }
+
+  .header {
+    background-color: #0b4a03;
+    width: 102%;
+    height: 102px;
+    margin-left: -8px;
+    padding-top: 160px;
+}
+
+#myVideo {
+  margin-top: -1%;
+  margin-left: 0px;
+  width: 100%;
+
+}
+
+  .uc-text {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: #ffff 1px 0 3px;
+    color: #fffaf1;
+    font-size: 80%;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top: -19%;
+}
+  .id-text {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: #ffff 1px 0 3px;
+    color: #fffaf1;
+    font-size: 65%;
+    font-weight: thin;
+    margin-left: 25%;
+    margin-top: 2px;
+}
+
+  .logo {
+    background-image: url(img/ucnhs-shs.png);
+    width: 21%;
+    height: 120px;
+    margin-left: 1%;
+
+}
+
+  .sdo-text {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: #ffff 1px 0 3px;
+    color: #fffaf1;
+    font-size: 70%;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top: 2px;
+    
+  }
+  .foreword {
+    margin-left: -180px;
+    background-color: #F1F1F1;
+  }
+  /* Left Content */
+.left-content {
+  text-align: center;
+  margin-top: -830px;
+  width: 88%;
+  height: 310px;
+  margin-left: 5%;
+  font-family:'Roboto', sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+
+.foreword h1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 2%;
+  font-size: 20px;
+  color: #353535;
+  margin-left: 25px;
+  margin-top: -250px;
+
+  }
+  .content2 {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    left: 0px;
+    top: 1455px;
+  
+    background: #F8BF00;
+  }
+
+  .content2-text h1 {
+    top: 270%;
+    margin-left: -136px;
+    line-height: 36px;
+  
+    color: #000000;
+  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+  
+  }
+
+  .shs-text {
+    background: url(img/tracks.png);
+    width: 85%;
+    height: 80%;
+    margin-left: 20px;
+    margin-top: 45px;
+  }
+
+.ucnhs h1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 10%;
+  font-size: 15px;
+  color: #353535;
+  margin-left:300px;
+  margin-right: -500px;
+  margin-top: -940px;
+  }
+
+  .ucnhs-text {
+    float: left;
+    text-align: center;
+    margin-top: -1520px;
+    width: 88%;
+    height: 310px;
+    margin-left: 5%;
+    font-family:'Roboto', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  #as {
+    float: right;
+    margin-top: -140%;
+    margin-right: 10%;
+    width: 80%;
+    height: 800px;
+  
+  }
+
+
+  .map {
+    margin-top: -100px;
+    float: center;
+  }
+
+  .footer {
+    float: left;
+    text-align: center;
+    background-color: #0b4a03;
+    width: 100%;
+    height: 240px;
+  }
+  
+  .shs-logo {
+    background: url(img/footer/ucnhs-shs.png);
+    height: 45%;
+    width: 25%;
+    margin-left: 1px;
+    margin-top: -150px;
+  }
+  
+  .footer-content h1 {
+    text-align: center;
+    margin-top: 80px;
+    font-family:'Roboto', sans-serif;
+    font-size: 8px;
+    color: #ffff;
+  
+  }
+  
+  .footer-content h2 {
+    font-family:'Roboto', sans-serif;
+    font-size: 9px;
+    color: #ffff;
+    margin-left: -40px;
+    font-weight: lighter;
+    margin-top: -162px;
+    
+  }
+  
+  .footer-content h3 {
+    font-family:'Roboto', sans-serif;
+    font-size: 11px;
+    color: #ffff;
+    margin-left: -5px;
+
+
+  }
+  
+  .footer-content h4 {
+    font-family:'Roboto', sans-serif;
+    font-size: 14px;
+    color: #ffff;
+    margin-left: 69px;
+  }
+  
+  .footer-content h5 {
+    font-family:'Roboto', sans-serif;
+    font-size: 5px;
+    color: #ffff;
+    margin-top: -10px;
+    margin-left: 300px;
+    text-align: justify;
+    font-weight: lighter;
+  }
+  
+  .footer-space {
+    margin-top: 12px;
+  }
+  
+  .footer-space1 {
+    margin-top: 20px;
+  }
+  
+  .footer-space2 {
+    margin-top: 15px;
+  }
+
+  .trio-icons {
+    visibility: hidden;
+  }
+}
